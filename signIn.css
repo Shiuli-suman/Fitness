@@ -1,0 +1,134 @@
+#navi {
+    display: flex;
+    justify-content:space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 30px 0px 20px 0px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(203, 198, 198);
+    height: 70px;
+
+}
+#nav{
+    padding-top: 20px;
+    gap: 30px;
+    display: flex;
+}
+#nav>a{
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#icon{
+    font-size: 28px;
+}
+
+#navi img {
+    height: 70px;
+    width: 80px;
+}
+#sign{
+    padding-left: 20px;
+
+}
+#fitness{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+.sign{
+    width: 300px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-color: rgb(242, 187, 93);
+    border-radius: 8px;
+}
+body{
+    background-image: url('file:///C:/Users/Akshay%20Lonare/Downloads/1759696.jpg')
+}
+.welcome{
+    color: rgb(234, 135, 187);
+    text-align: center;
+    align-items: center;
+   
+}
+#link {
+    display: flex;
+    justify-content: center;
+}
+
+#link img~img{
+    height: 50px;
+    width: 100%;
+}
+
+
+#name {
+    text-align: center;
+}
+.fb{
+    background-color: rgb(40, 70, 221);
+    color: white;
+    padding: 7px 5px 7px 5px;
+    border-radius: 5px;
+}
+.gmail{
+    background-color: rgb(241, 15, 15);
+    color: white;
+    padding: 7px 5px 7px 5px;
+    border-radius: 5px;
+}
+.gmail:hover{
+    cursor: pointer;
+    background-color: rgb(228, 70, 112);
+
+}
+.fb:hover{
+    cursor: pointer;
+    background-color:rgb(96, 165, 229);
+
+}
+.log{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(81, 201, 201);
+
+}
+#input-box-1{
+    font-size: 20px;
+}
+#input-box-2{
+    font-size: 20px;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+}
+.other a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: red;
+}
+.other i{
+    font-size: 35px;
+}
+.other a~a{
+    background-color:rgb(37, 77, 209);
+}
